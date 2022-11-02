@@ -7,11 +7,10 @@ import org.json.JSONStringer
 import java.util.PriorityQueue
 
 data class NodeCost(val n: Int,val c:Int)
-data class Path(val nodes: List<Int>,val cost: Int)
 
-class Dijkstra(val graph: Graph) {
+class Dijkstra(graph:Graph) : Algorithm(graph) {
 
-    fun pathfind(s: Int, e: Int):Path? {
+    override fun pathfind(s: Int, e: Int):Path? {
 
         // previous node
         val previous = MutableList(graph.nodeCount) { -1 }
