@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Dijkstra</string>
+    <string name="pathfind">Pathfind</string>
+    <string name="starting_node">starting node:</string>
+    <string name="ending_node">ending node:</string>
+    <string name="starting_text">CLICK PATHFIND TO CALCULATE PATH</string>
+</resources>
